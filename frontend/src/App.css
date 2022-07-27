@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+body {
+  font-family: "Roboto", monospace;
+}
+
+.form__input-valid {
+  border-color: green !important;
+}
+
+.form__input-invalid {
+  border-color: red !important;
+}
+
+.products__list {
+  gap: 40px;
+}
+
+.products__list-item {
+  width: 18rem;
+  padding: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
+
+.products__list-item img {
+  width: 100%;
+  height: 250px;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.website__logo {
+  width: 95px;
+  height: 70px;
+
+  object-fit:cover;
+}
+
+.user__logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.home__img {
+  width: 400px;
+  height: 300px;
+
+  object-fit: cover;
+}
+
+.product__spec {
+  padding: 3px 7px;
+  background: #d3d3d3;
+  border-radius: 5px;
+}
